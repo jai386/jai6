@@ -1,0 +1,86 @@
+ html body
+ {
+	 padding:0;
+	 margin:0;
+	 width:100%;
+	 height:100%;
+	 position:relative;
+ }
+ #wrapper
+ {
+	 width:100%;
+	 min-height:100%;
+	 overflow:hiden;
+	 
+ }
+ #blackwall
+ {
+	 background:rgba(44,62,80,0.6);
+	 position:absolute;
+	 top:0;
+	 left:0;
+	 right:0;
+	 bottom:0;
+	 width:100%;
+	 height:100%;
+	 z-index:9999;
+	 display:block;
+ }
+ #model
+ {
+	 width:500px;
+	 min-height:300px;
+	 box-sizing:border-box;
+	 background:#fff;
+	 border-radius:5px;
+	 margin:10% auto 0;
+	 box-shadow:1px 2px 3px #111;
+	 overflow:hidden;
+	 transition:all 0.5s ease;
+	 /*transform:scale(0,0);*/
+ }
+ #modelheader
+ {
+	 width:100%;
+	 height:60px;
+	 line-height:60px;
+	 padding:0 25px;
+	 color:#fff;
+	 font-family:oswald;
+	 background:#446CB3;
+	 box-sizing:border-box;
+ }
+ #modelheader h1
+ {
+	 margin:0px;
+	 font-size:22px;
+	 float:left;
+ }
+ #modelheader .hider
+ {
+	 float:right;
+	 cursor:pointer;
+	 transition:all 0.5s ease;
+ }
+ #modelheader .hider:hover
+ {
+	 transform:scale(1.2,1.2);
+	 transition:all 0.5s ease;
+ }
+ #modelbody
+ {
+	 margin:30px;
+	 text-align:left;
+ }
+ .blockscroll{overflow-y:hidden;}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
